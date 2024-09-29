@@ -4,6 +4,7 @@ import os
 
 numberOfClips = 21
 imageNumber = 0
+nthImage = 15
 
 for clipNumber in range(numberOfClips):
     print(f"Images from Clip #{clipNumber}")
@@ -25,9 +26,9 @@ for clipNumber in range(numberOfClips):
     
         if ret: 
             # if video is still left continue creating images 
-            # Only obtaining some of the frames for image detection, to not have too many of the same images
+            # Only obtaining the nth image of each frame for image detection, to not have too many of the same images
 
-            if currentFrame % 20 == 0:
+            if currentFrame % nthImage == 0:
                 imageNumber += 1
                 name = './images/frame' + str(imageNumber) + '.jpg'
                 print ('Creating...' + name) 
