@@ -18,7 +18,6 @@ for clipNumber in range(numberOfClips):
 
     currentFrame = 0
     
-
     while(True): 
         
         # reading from frame 
