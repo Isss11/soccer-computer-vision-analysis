@@ -4,7 +4,7 @@ import os
 
 numberOfClips = 21
 imageNumber = 0
-nthImage = 15
+nthImage = 60
 
 for clipNumber in range(numberOfClips):
     print(f"Images from Clip #{clipNumber}")
