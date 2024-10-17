@@ -6,16 +6,22 @@ You must set one of your environment variables with the API key from Roboflow to
 
 ### Installation
 
-You must have Python version 3.11 or below.
+You must have Python version 3.11 or below. You must also set-up CUDA 11.8.
+
+### Virtual Environment Set-up
 
 ```
-pip install opencv-python
+python -m venv soccer-env
 ```
 
-```
-pip install ultralytics
-```
+In cmd.exe
 
 ```
-pip install roboflow
+soccer-env\Scripts\activate.bat 
+```
+
+In PowerShell
+
+```
+soccer-env\Scripts\Activate.ps1
 ```

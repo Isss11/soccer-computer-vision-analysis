@@ -1,2 +1,6 @@
 runs
 *.mp4
+soccer-env
+*.pt
+soccer-computer-vision-3
+soccer-field-detection-2
