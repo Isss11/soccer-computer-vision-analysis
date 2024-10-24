@@ -2,11 +2,12 @@ import cv2
 import os
 
 
-numberOfClips = 21
-imageNumber = 0
+numberOfClips = 22
+imageNumber = 301
 nthImage = 60
 
-for clipNumber in range(numberOfClips):
+# FIXME, adjusted to extract from one video
+for clipNumber in range(numberOfClips, numberOfClips + 1):
     print(f"Images from Clip #{clipNumber}")
     clip = cv2.VideoCapture(f"C:\\Users\\isss1\\OneDrive\\Documents\\Wondershare\\Wondershare Filmora\\Output\\clip_{clipNumber}.mp4")
 
