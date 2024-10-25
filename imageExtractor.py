@@ -3,7 +3,7 @@ import os
 
 
 numberOfClips = 23
-imageNumber = 301
+imageNumber = 317
 nthImage = 60
 
 # FIXME, adjusted to extract from one video
